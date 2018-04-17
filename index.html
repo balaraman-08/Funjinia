@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link rel="shortcut icon" href="user.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Side Bar -->
+    <div class="side-bar">
+        <img src="user.jpg" class="user-img">
+        <h1 style="color: #F44336;">TONY STARK</h1>
+        <h2>Contact me</h2>
+        <p> <a href="#">Facebook</a> </p>
+        <p> <a href="#">Twitter</a> </p>
+        <p> <a href="#">Email</a> </p>
+    </div>
+    <!-- Side Bar Ends -->
+
+    <!-- Main -->
+    <div class="main">
+        <center>
+            <p style="font-size: 56px; margin: 30px">Welcome to my blog</p>
+        </center>
+        <div class="details">
+            <!-- About Div -->
+            <div class="container">
+                <div class="heading">
+                    About
+                </div>
+
+                <div class="content" style="display: block;" id="about_cont">
+                    <p>Genius. Billionaire. Playboy. Philanthropist.</p>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <!-- About Div End-->
+
+            <!-- Alma Div -->
+            <div class="container">
+                <div class="heading">
+                    Alma mater
+                </div>
+
+                <div class="content collapse" id="alma_cont">
+                    <ol>
+                        <li>PG College of Engineering (2021-2025)</li>
+                        <li>UG College of Engineering (2017-2021)</li>
+                        <li>HSC School (2015-2017)</li>
+                        <li>SSLC School (2013-2015)</li>
+                    </ol>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <!-- Alma Div End-->
+
+            <!-- Area of interest Div -->
+            <div class="container">
+
+                <div class="heading">
+                    Area of interest
+                </div>
+
+                <div class="content collapse" id="aoi_cont">
+                    <p>Lorem ipsum dolor sit amet, ancillae pertinacia reprehendunt vel ad. Quo ut utamur moderatius, in per nonumy impetus percipitur. Pro dictas animal singulis in, cu his aperiri menandri. Eu mei nemore ornatus periculis, his nonumy appareat pericula ei, cu sea nullam conceptam. Et aeque principes mea, causae tincidunt nec ad, mea ei nullam expetenda dissentiet.</p>
+                    <p>Lorem ipsum dolor sit amet, ancillae pertinacia reprehendunt vel ad. Quo ut utamur moderatius, in per nonumy impetus percipitur. Pro dictas animal singulis in, cu his aperiri menandri. Eu mei nemore ornatus periculis, his nonumy appareat pericula ei, cu sea nullam conceptam. Et aeque principes mea, causae tincidunt nec ad, mea ei nullam expetenda dissentiet.</p>
+                    <p>Lorem ipsum dolor sit amet, ancillae pertinacia reprehendunt vel ad. Quo ut utamur moderatius, in per nonumy impetus percipitur. Pro dictas animal singulis in, cu his aperiri menandri. Eu mei nemore ornatus periculis, his nonumy appareat pericula ei, cu sea nullam conceptam. Et aeque principes mea, causae tincidunt nec ad, mea ei nullam expetenda dissentiet.</p>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <!-- Area of interest Div End-->
+
+            <!-- Skills Div -->
+            <div class="container">
+
+                <div class="heading">
+                    Skills
+                </div>
+
+                <div class="content" id="skills_cont">
+                    <ul>
+                        <li>Eating food</li>
+                        <li>Eating a lot of food</li>
+                        <li>EATING FOOD FOR A WHOLE DAY</li>
+                        <li>Sleeping</li>
+                        <li>Sleeping like a sloth</li>
+                        <li>Slee....zzzzzzzzzzzzzz</li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <!-- Skills Div End-->
+        </div>
+
+        <footer class="footer">
+            <a href="#">Subscribe to my newsletter</a>
+            <p style="position: absolute; left: 46.5%;"> | Copyright 2018 ©️</p>
+        </footer>
+  
+    </div>
+    <!-- Main End -->
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+            console.log($(document));
+			$('.heading').click(function(){
+				$(this).next().toggle(500);
+			});
+		});
+	</script>
+</body>
+</html>
