@@ -1,7 +1,21 @@
-body{
-    margin: 0px;
-    overflow-x: hidden;
-    background-color: #f1e7f1; 	   
+.user-img {
+    height: 200px;
+    width: 200px;
+    margin-top: 3em;
+    border-radius: 50%;
+}
+
+.heading{
+    color: #F44336;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .side-bar{
@@ -14,20 +28,10 @@ body{
     position: fixed;
 }
 
-.user-img {
-    height: 200px;
-    width: 200px;
-    margin-top: 3em;
-    border-radius: 50%;
-}
-
-a{
-    text-decoration: none;
-    color: #FFF;
-}
-
-a:hover {
-    text-decoration: underline;
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: #f1e7f1; 	   
 }
 
 .main{
@@ -38,14 +42,19 @@ a:hover {
     height: 100%;
 }
 
+.details{
+    padding: 5% 20px;
+}
+
 .container{
     width: 68%;
-    cursor: pointer;
     margin: auto;
 }
 
-.heading{
+
+.subheading {
     font-size: 36px;
+    cursor: pointer;
 }
 
 .content{
@@ -53,23 +62,17 @@ a:hover {
     display: none;
 }
 
-.details{
-    padding: 5% 20px;
-}
 
-.footer{
+footer{
     position: fixed;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: rgb(34, 33, 33);
     color: white;
-    width: inherit;
+    width: 80%;
     height: 50px;
 }
 
-.footer a{
-    color: rgb(168, 35, 35);
-    margin: auto;
+footer p{
     position: absolute;
-    top: 16px;
     left: 30%;
 }
