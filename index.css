@@ -1,15 +1,22 @@
-.user-img {
-    height: 200px;
-    width: 200px;
-    margin-top: 3em;
-    border-radius: 50%;
+#side-bar {
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    background-color: #4827cc;
+    padding-top: 150px;
+    text-align: center;
+    overflow: hidden;
 }
 
-.heading{
-    color: #F44336;
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
-a{
+a {
+    display: block;
+    margin-bottom: 10px;
     text-decoration: none;
     color: #FFF;
 }
@@ -18,23 +25,13 @@ a:hover {
     text-decoration: underline;
 }
 
-.side-bar{
-    height: 100%;
-    width: 20%;
-    background-color: #5040da;
-    padding-top: 60px;
-    text-align: center;
-    overflow: hidden;
-    position: fixed;
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
-body{
-    margin: 0px;
-    overflow-x: hidden;
-    background-color: #f1e7f1; 	   
-}
-
-.main{
+#main {
     position: absolute;
     left: 20%;
     top: 0px;
@@ -42,37 +39,35 @@ body{
     height: 100%;
 }
 
-.details{
-    padding: 5% 20px;
+#main-heading {
+    text-align: center;
+    font-size: 48px;
+    transition: color 1s, letter-spacing 1s;
+}
+#main-heading:hover {
+    color: #4827cc;
+    letter-spacing: 5px;
 }
 
-.container{
+#container {
     width: 68%;
-    margin: auto;
+    box-shadow: 0px 6px 10px 0px grey;
+    border-radius: 15px;
+    margin: 50px auto;
+    padding: 1px 0px;
 }
 
+section {
+    padding: 0 10px 0 25px;
+}
 
 .subheading {
     font-size: 36px;
+    margin: 16px 0;
     cursor: pointer;
 }
 
-.content{
+.content {
     font-size: 16px;
-    display: none;
-}
-
-
-footer{
-    position: fixed;
-    bottom: 0px;
-    background-color: rgb(34, 33, 33);
-    color: white;
-    width: 80%;
-    height: 50px;
-}
-
-footer p{
-    position: absolute;
-    left: 30%;
+    /* display: none; */
 }

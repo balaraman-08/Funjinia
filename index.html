@@ -10,33 +10,33 @@
 <body>
 
     <!-- Side Bar -->
-    <div class="side-bar">
-        <img src="user.jpg" class="user-img">
-        <h1 class="heading">TONY STARK</h1>
-        <h2>Contact me</h2>
-        <p> <a href="#">Facebook</a> </p>
-        <p> <a href="#">Twitter</a> </p>
-        <p> <a href="#">Email</a> </p>
+    <div id="side-bar">
+        <img src="user.jpg" class="profile-pic">
+        <h1 style="color: #feb724;">Petta Velan</h1>
+        <hr width="20%" color="white" />
+        <h2 style="color: #9bf09e">Contact me</h2>
+        <a href="https://www.facebook.com/PettaFilm">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Email</a>
     </div>
     <!-- Side Bar Ends -->
 
     <!-- Main -->
-    <div class="main">
-        <p style="font-size: 56px; margin: 30px; text-align: center;">Welcome to my blog</p>
-        <div class="details">
-            <!-- About Div -->
-            <div class="container">
+    <div id="main">
+        <h1 id="main-heading">Welcome to my blog</h1>
+        <marquee>
+            <a href="#" style="color: red">Subscribe to my newsletter to get access to my premium articles for free</a>
+        </marquee>
+        <div id="container">
+            <section>
                 <div class="subheading">About</div>
                 <div class="content">
-                    <p>Genius. Billionaire. Playboy. Philanthropist.</p>
+                    <p>Paaka thane pora intha Kaali oda Aatatha</p>
                 </div>
-                <hr/>
-            </div>
-            <br/>
-            <!-- About Div End-->
+            </section>
+            <hr color='grey' size="0.5px" />
 
-            <!-- Alma Div -->
-            <div class="container">
+            <section>
                 <div class="subheading">Alma mater</div>
                 <div class="content">
                     <ol>
@@ -46,25 +46,25 @@
                         <li>SSLC School (2013-2015)</li>
                     </ol>
                 </div>
-                <hr/>
-            </div>
-            <br/>
-            <!-- Alma Div End-->
+            </section>
+            <hr color='grey' size="0.5px" />
 
-            <!-- Area of interest Div -->
-            <div class="container">
+            <section>
                 <div class="subheading">Area of interest</div>
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet, ancillae pertinacia reprehendunt vel ad. Quo ut utamur moderatius, in per nonumy impetus percipitur. Pro dictas animal singulis in, cu his aperiri menandri. Eu mei nemore ornatus periculis, his nonumy appareat pericula ei, cu sea nullam conceptam. Et aeque principes mea, causae tincidunt nec ad, mea ei nullam expetenda dissentiet.</p>
-                    <p>Lorem ipsum dolor sit amet, ancillae pertinacia reprehendunt vel ad. Quo ut utamur moderatius, in per nonumy impetus percipitur. Pro dictas animal singulis in, cu his aperiri menandri. Eu mei nemore ornatus periculis, his nonumy appareat pericula ei, cu sea nullam conceptam. Et aeque principes mea, causae tincidunt nec ad, mea ei nullam expetenda dissentiet.</p>
+                    <p>Lorem ipsum dolor sit amet, ancillae pertinacia reprehendunt vel ad. Quo ut utamur moderatius, in
+                        per nonumy impetus percipitur. Pro dictas animal singulis in, cu his aperiri menandri. Eu mei
+                        nemore ornatus periculis, his nonumy appareat pericula ei, cu sea nullam conceptam. Et aeque
+                        principes mea, causae tincidunt nec ad, mea ei nullam expetenda dissentiet.</p>
+                    <p>Lorem ipsum dolor sit amet, ancillae pertinacia reprehendunt vel ad. Quo ut utamur moderatius, in
+                        per nonumy impetus percipitur. Pro dictas animal singulis in, cu his aperiri menandri. Eu mei
+                        nemore ornatus periculis, his nonumy appareat pericula ei, cu sea nullam conceptam. Et aeque
+                        principes mea, causae tincidunt nec ad, mea ei nullam expetenda dissentiet.</p>
                 </div>
-                <hr/>
-            </div>
-            <br/>
-            <!-- Area of interest Div End-->
+            </section>
+            <hr color='grey' size="0.5px" />
 
-            <!-- Skills Div -->
-            <div class="container">
+            <section>
                 <div class="subheading">Skills</div>
                 <div class="content">
                     <ul>
@@ -76,28 +76,21 @@
                         <li>Slee....zzzzzzzzzzzzzz</li>
                     </ul>
                 </div>
-                <hr/>
-            </div>
-            <br/>
-            <!-- Skills Div End-->
+            </section>
         </div>
-
-        <footer>
-            <p> <a href="#">Subscribe to my newsletter</a> | Copyright 2018 ©️</p>
-        </footer>
-  
     </div>
     <!-- Main End -->
 
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function(){
+    <script>
+        $(document).ready(function () {
             console.log($(document));
-			$('.subheading').click(function(){
-				$(this).next().toggle(500);
-			});
-		});
-	</script>
+            $('.subheading').click(function () {
+                $(this).next().toggle(500);
+            });
+        });
+    </script>
 </body>
+
 </html>
